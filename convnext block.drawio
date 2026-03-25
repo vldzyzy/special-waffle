@@ -23,24 +23,28 @@
           <mxGeometry height="54" width="124" x="970" y="581" as="geometry" />
         </mxCell>
         <mxCell id="NL7EIqgawe23Y_cT-RiJ-123" edge="1" parent="1" source="NL7EIqgawe23Y_cT-RiJ-117" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.16;entryX=0;entryY=0.5;rounded=0;fontSize=12;" target="NL7EIqgawe23Y_cT-RiJ-118" value="96维">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.1598" y="21" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="315" y="577" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NL7EIqgawe23Y_cT-RiJ-124" edge="1" parent="1" source="NL7EIqgawe23Y_cT-RiJ-118" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;" target="NL7EIqgawe23Y_cT-RiJ-119" value="层归一化 LN">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="-0.0309" y="17" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NL7EIqgawe23Y_cT-RiJ-125" edge="1" parent="1" source="NL7EIqgawe23Y_cT-RiJ-119" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;" target="NL7EIqgawe23Y_cT-RiJ-120" value="GELU 激活">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.0588" y="17" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NL7EIqgawe23Y_cT-RiJ-126" edge="1" parent="1" source="NL7EIqgawe23Y_cT-RiJ-120" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.01;entryY=0.29;rounded=0;fontSize=12;" target="NL7EIqgawe23Y_cT-RiJ-121" value="LayerScale">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.0625" y="20" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="880" y="580" />
               <mxPoint x="890" y="590" />
