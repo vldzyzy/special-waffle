@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0">
   <diagram name="第 1 页" id="wNQ6skVG3uv7TqfgMKrN">
-    <mxGraphModel dx="2020" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="AShD6QDHyPjso4tdWyBt-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#eeeeee;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="260" width="230" x="280" y="950" as="geometry" />
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=14;" value="单块骨骼裁剪图&#xa;(B, 3, H, W)" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=16;" value="单块骨骼裁剪图&#xa;(B, 3, H, W)" vertex="1">
           <mxGeometry height="78" width="172" x="308" y="980" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-36" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-7">
@@ -21,13 +21,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=14;fontStyle=1" value="骨骼类别索引&#xa;(B, 1)" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=16;fontStyle=1" value="骨骼类别索引&#xa;(B, 1)" vertex="1">
           <mxGeometry height="78" width="172" x="308" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-37" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" value="共享特征提取器 " vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" value="共享特征提取器 " vertex="1">
           <mxGeometry height="142" width="228" x="568" y="870" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-38" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-8">
@@ -62,7 +62,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontStyle=1;fontSize=14;fillColor=#ffcccc;strokeColor=#36393d;" value="条件路由器" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontStyle=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" value="条件路由器" vertex="1">
           <mxGeometry height="224" width="224" x="570" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-26" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-12">
@@ -73,7 +73,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 0 (桡骨)&#xa;输出 14 个 Logits" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 0 (桡骨)&#xa;输出 14 个 Logits" vertex="1">
           <mxGeometry height="78" width="181" x="879.5" y="830" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-27" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-12">
@@ -84,7 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 1 (尺骨)&#xa;输出 11 个 Logits" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 1 (尺骨)&#xa;输出 11 个 Logits" vertex="1">
           <mxGeometry height="78" width="181" x="880" y="960" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-31" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-12">
@@ -95,7 +95,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" value="......&#xa;其他骨骼分支" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="......&#xa;其他骨骼分支" vertex="1">
           <mxGeometry height="78" width="180.5" x="880.5" y="1091" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-34" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-12">
@@ -106,16 +106,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 8 (第三、五远节指骨)&#xa;输出 9 个 Logits" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 8 (第三、五远节指骨)&#xa;输出 9 个 Logits" vertex="1">
           <mxGeometry height="78" width="180.5" x="879.5" y="1220" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-25" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" value="有序解码" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" value="有序解码" vertex="1">
           <mxGeometry height="78" width="215" x="1165.5" y="1000" as="geometry" />
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-13" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" value="最终预测等级" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-13" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" value="最终预测等级" vertex="1">
           <mxGeometry height="63" width="146" x="1200" y="1169" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-35" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.458;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-6">
