@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0">
   <diagram name="第 1 页" id="FUuNwu0P_bB2xNDukaI8">
-    <mxGraphModel dx="1628" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2362" dy="1351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3521vYKD9GxNtJ_qqWd6-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="输入图像的非重叠 Patch" vertex="1">
-          <mxGeometry height="120" width="610" x="450" y="760" as="geometry" />
+          <mxGeometry height="100" width="580" x="460" y="760" as="geometry" />
         </mxCell>
         <mxCell id="3521vYKD9GxNtJ_qqWd6-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Patch + Position Embedding" vertex="1">
           <mxGeometry height="104" width="1339" x="20" y="1718" as="geometry" />
@@ -55,13 +55,11 @@
         <mxCell id="3521vYKD9GxNtJ_qqWd6-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="9" vertex="1">
           <mxGeometry height="54" width="68" x="1256" y="1743" as="geometry" />
         </mxCell>
-        <mxCell id="3521vYKD9GxNtJ_qqWd6-75" edge="1" parent="1" source="3521vYKD9GxNtJ_qqWd6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="813" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="WT-ogcx9UCo53Q7uLa3u-1" edge="1" parent="1" source="3521vYKD9GxNtJ_qqWd6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3521vYKD9GxNtJ_qqWd6-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3521vYKD9GxNtJ_qqWd6-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="输入图像" vertex="1">
-          <mxGeometry height="54" width="124" x="258" y="786" as="geometry" />
+          <mxGeometry height="54" width="124" x="281" y="783" as="geometry" />
         </mxCell>
         <mxCell id="3521vYKD9GxNtJ_qqWd6-41" edge="1" parent="1" source="3521vYKD9GxNtJ_qqWd6-28" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.74;entryX=0.5;entryY=0;rounded=0;" target="3521vYKD9GxNtJ_qqWd6-31" value="">
           <mxGeometry relative="1" as="geometry">
