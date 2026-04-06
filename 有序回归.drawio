@@ -54,11 +54,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-41" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-11">
+        <mxCell id="rKBc4ad_jO8bzVeFNbnZ-1" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="1182" />
-              <mxPoint x="820" y="1259" />
+              <mxPoint x="820" y="1255" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -98,16 +98,17 @@
         <mxCell id="AShD6QDHyPjso4tdWyBt-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="......&#xa;其他骨骼分支" vertex="1">
           <mxGeometry height="78" width="180.5" x="880.5" y="1091" as="geometry" />
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-34" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-12">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-34" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="AShD6QDHyPjso4tdWyBt-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1120" y="1289" />
+              <mxPoint x="1120" y="1255" />
               <mxPoint x="1120" y="1039" />
             </Array>
+            <mxPoint x="1120" y="1255" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 8 (第三、五远节指骨)&#xa;输出 9 个 Logits" vertex="1">
-          <mxGeometry height="78" width="180.5" x="879.5" y="1220" as="geometry" />
+        <mxCell id="AShD6QDHyPjso4tdWyBt-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" value="Head 8 (远节指骨III, V)&#xa;输出 9 个 Logits" vertex="1">
+          <mxGeometry height="78" width="180" x="881" y="1216" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-25" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-13">
           <mxGeometry relative="1" as="geometry" />
