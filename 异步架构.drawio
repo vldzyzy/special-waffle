@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="FH96Es__xOYAC0JXWcrq">
-    <mxGraphModel dx="1823" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2008" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="5We-4ud0WpGlny8Ls67a-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="任务获取" vertex="1">
           <mxGeometry height="54" width="124" x="960" y="277" as="geometry" />
         </mxCell>
-        <mxCell id="5We-4ud0WpGlny8Ls67a-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="模型推理" vertex="1">
+        <mxCell id="5We-4ud0WpGlny8Ls67a-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="推理流水线" vertex="1">
           <mxGeometry height="54" width="124" x="1179" y="277" as="geometry" />
         </mxCell>
         <mxCell id="5We-4ud0WpGlny8Ls67a-89" edge="1" parent="1" source="5We-4ud0WpGlny8Ls67a-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5We-4ud0WpGlny8Ls67a-29">
@@ -87,6 +87,30 @@
             <mxPoint x="1053" y="394" as="sourcePoint" />
             <mxPoint x="1010" y="354" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;strokeColor=light-dark(#1A1A1A,#CCCCCC);fontColor=light-dark(#333333,#cccccc);verticalAlign=bottom;fontSize=16;fontStyle=1;dashed=1;" value="推理流水线" vertex="1">
+          <mxGeometry height="156" width="1230" x="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-6" edge="1" parent="1" source="59vluBiHSls-aEnF6nZX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="59vluBiHSls-aEnF6nZX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="预处理" vertex="1">
+          <mxGeometry height="54" width="124" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-7" edge="1" parent="1" source="59vluBiHSls-aEnF6nZX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="59vluBiHSls-aEnF6nZX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="关键骨骼检测模块" vertex="1">
+          <mxGeometry height="54" width="174" x="520" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-8" edge="1" parent="1" source="59vluBiHSls-aEnF6nZX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="59vluBiHSls-aEnF6nZX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="骨骼发育等级评定模块" vertex="1">
+          <mxGeometry height="54" width="241" x="830" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="59vluBiHSls-aEnF6nZX-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=16;fontStyle=1" value="后处理" vertex="1">
+          <mxGeometry height="54" width="124" x="1160" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
