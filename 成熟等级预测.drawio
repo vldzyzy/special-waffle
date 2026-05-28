@@ -10,7 +10,7 @@
         <mxCell id="AShD6QDHyPjso4tdWyBt-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#eeeeee;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="260" width="230" x="280" y="950" as="geometry" />
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=14;" value="单块骨骼裁剪图&#xa;(B, 3, H, W)" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;fontSize=14;" value="单块骨裁剪图&#xa;(B, 3, H, W)" vertex="1">
           <mxGeometry height="78" width="172" x="308" y="980" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-36" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-7">
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=14;fontStyle=1" value="骨骼类别索引&#xa;(B, 1)" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=14;fontStyle=1" value="骨类别索引&#xa;(B, 1)" vertex="1">
           <mxGeometry height="78" width="172" x="308" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-37" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-7">
@@ -95,7 +95,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AShD6QDHyPjso4tdWyBt-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" value="......&#xa;其他骨骼分支" vertex="1">
+        <mxCell id="AShD6QDHyPjso4tdWyBt-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" value="......&#xa;其他骨分支" vertex="1">
           <mxGeometry height="78" width="180.5" x="880.5" y="1091" as="geometry" />
         </mxCell>
         <mxCell id="AShD6QDHyPjso4tdWyBt-34" edge="1" parent="1" source="AShD6QDHyPjso4tdWyBt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AShD6QDHyPjso4tdWyBt-12">
